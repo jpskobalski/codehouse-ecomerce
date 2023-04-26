@@ -20,7 +20,7 @@ const calculateTotal = () => {
 };
 
 const returnAmount = (amount) => {
-  alert("Your full price is: " + amount)
+  alert("Your full price is: " + amount + ", This includes sales tax (21%)")
 }
 
 const alertMessage = (msg) => {
