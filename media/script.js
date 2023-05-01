@@ -27,7 +27,14 @@ const alertMessage = (msg) => {
   alert(msg)
 }
 
-updateMessage();
-calculateTotal();
-alertMessage(message);
-returnAmount(fullPrice);
+let continueLoop = "yes";
+
+while (continueLoop.toLowerCase() === "yes") {
+  updateMessage();
+  calculateTotal();
+  alertMessage(message);
+  returnAmount(fullPrice);
+  continueLoop = prompt("Do you want to continue? (yes/no):");
+}
+
+alert("Thank you for using our program!");
