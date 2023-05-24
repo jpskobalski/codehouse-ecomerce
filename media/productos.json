@@ -1,0 +1,58 @@
+[
+    {
+        "id": 1,
+        "nombre": "Producto 1",
+        "descripcion": "Descripción del Producto 1",
+        "precio": 100,
+        "imagen": "./media/img/product1.jpg"
+    },
+    {
+        "id": 2,
+        "nombre": "Producto 2",
+        "descripcion": "Descripción del Producto 2",
+        "precio": 200,
+        "imagen": "./media/img/product2.jpg"
+    },
+    {
+        "id": 3,
+        "nombre": "Producto 3",
+        "descripcion": "Descripción del Producto 3",
+        "precio": 300,
+        "imagen": "./media/img/product3.jpg"
+    },
+    {
+        "id": 4,
+        "nombre": "Producto 4",
+        "descripcion": "Descripción del Producto 4",
+        "precio": 400,
+        "imagen": "./media/img/product4.jpg"
+    },
+    {
+        "id": 5,
+        "nombre": "Producto 5",
+        "descripcion": "Descripción del Producto 5",
+        "precio": 150,
+        "imagen": "./media/img/product1.jpg"
+    },
+    {
+        "id": 6,
+        "nombre": "Producto 6",
+        "descripcion": "Descripción del Producto 6",
+        "precio": 250,
+        "imagen": "./media/img/product2.jpg"
+    },
+    {
+        "id": 7,
+        "nombre": "Producto 7",
+        "descripcion": "Descripción del Producto 7",
+        "precio": 350,
+        "imagen": "./media/img/product3.jpg"
+    },
+    {
+        "id": 8,
+        "nombre": "Producto 4",
+        "descripcion": "Descripción del Producto 8",
+        "precio": 450,
+        "imagen": "./media/img/product4.jpg"
+    }
+]

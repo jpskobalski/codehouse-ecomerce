@@ -79,7 +79,6 @@
   
   .hero-image-container img {
 	width: 100%;
-	height: auto;
   }
   
   .card-container {
@@ -179,6 +178,40 @@
 	margin-top: 16px;
 	border-radius: 4px;
   }
+
+  .container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#productos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.product-card {
+    width: 40%; 
+    border: 1px solid #000;
+    padding: 10px;
+    margin: 10px;
+}
+
+.product-card img {
+    width: 100%;
+    height: auto;
+}
+
+.product-card h2 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.product-card p {
+    font-size: 16px;
+}
   
   footer {
 	background-color: #333;
