@@ -2,58 +2,58 @@
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
-  }
-  
-  body {
+}
+
+body {
 	font-family: Arial, sans-serif;
-  }
-  
-  header {
+}
+
+header {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	background-color: #f2f2f2;
 	padding: 20px;
-  }
-  
-  nav {
+}
+
+nav {
 	display: flex;
 	justify-content: flex-end;
 	align-items: center;
-  }
-  
-  ul {
+}
+
+ul {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
 	display: flex;
-  }
-  
-  li {
+}
+
+li {
 	margin-left: 20px;
-  }
-  
-  a {
+}
+
+a {
 	text-decoration: none;
 	color: #333;
 	font-weight: bold;
 	font-size: 18px;
-  }
-  
-  a:hover {
-	color: #ff6600;
-  }
-  
-  main {
-	padding: 20px;
-  }
+}
 
-  .logo img {
+a:hover {
+	color: #ff6600;
+}
+
+main {
+	padding: 20px;
+}
+
+.logo img {
 	width: 50px;
 	height: 50px;
-  }
-  
-  .hero {
+}
+
+.hero {
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -61,62 +61,62 @@
 	text-align: center;
 	background-color: #fff;
 	margin-top: 20px;
-  }
-  
-  .hero h1 {
+}
+
+.hero h1 {
 	font-size: 36px;
 	margin-bottom: 20px;
-  }
-  
-  .hero p {
+}
+
+.hero p {
 	font-size: 24px;
 	margin-bottom: 20px;
-  }
-  
-  .hero-image-container {
+}
+
+.hero-image-container {
 	margin-top: 20px;
-  }
-  
-  .hero-image-container img {
+}
+
+.hero-image-container img {
 	width: 100%;
-  }
-  
-  .card-container {
+}
+
+.card-container {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	flex-wrap: wrap;
 	margin-top: 20px;
-  }
-  
-  .card {
+}
+
+.card {
 	width: 300px;
 	background-color: #fff;
 	margin: 20px;
 	border-radius: 10px;
-	box-shadow: 0 0 10px rgba(0,0,0,0.2);
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 	text-align: center;
-  }
-  
-  .card img {
+}
+
+.card img {
 	width: 100%;
 	height: auto;
 	border-top-left-radius: 10px;
 	border-top-right-radius: 10px;
-  }
-  
-  .card h2 {
+}
+
+.card h2 {
 	margin-top: 10px;
 	font-size: 24px;
-  }
-  
-  .card p {
+}
+
+.card p {
 	margin-top: 10px;
 	font-size: 18px;
 	color: #666;
-  }
-  
-  .card button {
+}
+
+.card button {
 	margin-top: 20px;
 	background-color: #ff6600;
 	color: #fff;
@@ -125,22 +125,22 @@
 	font-size: 18px;
 	border-radius: 5px;
 	cursor: pointer;
-  }
-  
-  .card button:hover {
-	background-color: #e65c00;
-  }
+}
 
-  /* Product Styles */
+.card button:hover {
+	background-color: #e65c00;
+}
+
+/* Product Styles */
 .product-row {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
 	margin: 0 auto;
 	max-width: 960px;
-  }
-  
-  .product-card {
+}
+
+.product-card {
 	display: flex;
 	flex-direction: column;
 	border: 1px solid #ccc;
@@ -148,25 +148,25 @@
 	padding: 16px;
 	max-width: 300px;
 	margin: 16px;
-  }
-  
-  .product-card img {
+}
+
+.product-card img {
 	max-width: 100%;
 	height: auto;
-  }
-  
-  .product-card h3 {
+}
+
+.product-card h3 {
 	font-size: 1.2rem;
 	font-weight: bold;
 	margin-top: 16px;
-  }
-  
-  .product-card p {
+}
+
+.product-card p {
 	font-size: 1.1rem;
 	margin-top: 8px;
-  }
-  
-  .product-card button {
+}
+
+.product-card button {
 	background-color: #4CAF50;
 	border: none;
 	color: white;
@@ -177,80 +177,77 @@
 	font-size: 14px;
 	margin-top: 16px;
 	border-radius: 4px;
-  }
+}
 
-  .container {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+.container {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
 }
 
 #productos {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    width: 100%;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	width: 100%;
 }
 
-/* This will center text within an element */
 .center-text {
-    text-align: center;
+	text-align: center;
 }
 
-/* This will align an element to the right within its parent */
 .right-align {
-    text-align: right;
+	text-align: right;
 }
 
-/* This will style the product container */
 .product-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;  /* Adjust this to change the space between products */
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 20px;
 }
 
-/* This will style each product card */
 .product-card {
-    /* You can adjust these values to change the appearance of the product cards */
-    width: 200px;
-    padding: 20px;
-    margin: 10px;
-    text-align: center;
-    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+	width: 200px;
+	padding: 20px;
+	margin: 10px;
+	text-align: center;
+	box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
 }
 
 .product-card img {
-    width: 100%;
-    height: auto;
+	width: 100%;
+	height: auto;
 }
 
 .product-card h2 {
-    font-size: 18px;
-    margin: 10px 0;
+	font-size: 18px;
+	margin: 10px 0;
 }
 
 .product-card p {
-    font-size: 16px;
+	font-size: 16px;
 }
 
 .contact-form {
 	max-width: 600px;
 	margin: 0 auto;
-  }
-  
-  .contact-form input[type="text"], .contact-form input[type="email"], .contact-form textarea {
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
 	width: 100%;
 	box-sizing: border-box;
-  }
-  
-  footer {
+}
+
+footer {
 	background-color: #333;
 	color: #fff;
 	text-align: center;
 	padding: 20px;
-  }
-  
-  footer p {
+}
+
+footer p {
 	margin: 0;
-  }
+}
