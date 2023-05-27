@@ -50,7 +50,7 @@
     },
     {
         "id": 8,
-        "nombre": "Producto 4",
+        "nombre": "Producto 8",
         "descripcion": "Descripción del Producto 8",
         "precio": 450,
         "imagen": "./media/img/product4.jpg"

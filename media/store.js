@@ -38,13 +38,44 @@ function mostrarProductos(productos) {
         // Agregamos la carta al contenedor de productos
         contenedorProductos.appendChild(card);
     });
+}// This function filters the products based on the search query and then displays them
+function searchProducts(query) {
+    obtenerProductos()
+        .then(productos => {
+            // Filter the products based on the search query
+            const filteredProducts = productos.filter(producto => 
+                producto.nombre.toLowerCase().includes(query.toLowerCase()) ||
+                producto.descripcion.toLowerCase().includes(query.toLowerCase())
+            );
+            
+            // Clear the current displayed products
+            const contenedorProductos = document.querySelector('#productos');
+            contenedorProductos.innerHTML = '';
+            
+            // Display the filtered products
+            mostrarProductos(filteredProducts);
+        })
+        .catch(error => {
+            console.error('Hubo un problema con la operación fetch: ' + error.message);
+        });
 }
 
-// Función principal que obtiene y muestra los productos
+// This function sets up the search functionality
+function setupSearch() {
+    const searchInput = document.querySelector('#product-search');
+    
+    // Run the search function whenever the user types in the search bar
+    searchInput.addEventListener('input', (event) => {
+        searchProducts(event.target.value);
+    });
+}
+
+// Update the main function to also set up the search functionality
 function main() {
     obtenerProductos()
         .then(productos => {
             mostrarProductos(productos);
+            setupSearch();
         })
         .catch(error => {
             console.error('Hubo un problema con la operación fetch: ' + error.message);
